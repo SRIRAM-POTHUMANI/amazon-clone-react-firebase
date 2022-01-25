@@ -94,7 +94,7 @@ function Payment() {
           <div className="payment__title">
             <h3>Delivery Address</h3>
           </div>
-          <div className="payment__address">
+          <div className="payment__address lh-sm">
             <p>{user?.email}</p>
             <p>211/1, Thiruvalluvar Main Street</p>
             <p>Nehru Nagar, Madurai</p>
@@ -125,12 +125,23 @@ function Payment() {
           <div className="payment__title">
             <h3>Payment Method</h3>
           </div>
-          <div className="payment__details">
+          <div className="payment__details text-center">
             {/* Stripe magic will go */}
 
-            <form onSubmit={handleSubmit}>
-              <CardElement onChange={handleChange} />
-
+            <form onSubmit={handleSubmit} className="card p-3 gap-2">
+              <CardElement
+                onChange={handleChange}
+                className="card card-header"
+              />
+              <p className="text-start ms-3 mt-3 text-secondary lh-sm">
+                Use dummy card details given below: <br />
+                Card Number- 4242 4242 4242 4242 <br />
+                MM/YY - 02/24
+                <br />
+                CVC - 242
+                <br />
+                ZIP - 42424
+              </p>
               <div className="payment__priceContainer">
                 <CurrencyFormat
                   renderText={(value) => <h3>Order Total: {value}</h3>}

@@ -13,7 +13,7 @@ function Header() {
     }
   };
   return (
-    <nav class="navbar header navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-between">
       <div class="container-fluid p-0 m-0">
         <Link to="/">
           <img
