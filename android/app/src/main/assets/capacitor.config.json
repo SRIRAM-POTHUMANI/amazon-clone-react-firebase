@@ -1,0 +1,6 @@
+{
+	"appId": "com.sriramamazonclone.app",
+	"appName": "Amazon Clone",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

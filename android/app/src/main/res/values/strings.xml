@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Amazon Clone</string>
+    <string name="title_activity_main">Amazon Clone</string>
+    <string name="package_name">com.sriramamazonclone.app</string>
+    <string name="custom_url_scheme">com.sriramamazonclone.app</string>
+</resources>

@@ -15,7 +15,7 @@ function Home() {
             url5="https://m.media-amazon.com/images/I/610zaYNI4OL._SX3000_.jpg"
           />
         </div>
-        <div className="productsrow m-2 g-4">
+        <div className="productsrow g-4">
           <div class="row row-cols-1 row-cols-md-3 g-4 m-3 d-flex d-flex justify-content-evenly">
             <div class="col">
               <Product

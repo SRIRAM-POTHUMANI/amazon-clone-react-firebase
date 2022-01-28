@@ -19,12 +19,12 @@
   max-height: 600px;
   z-index: 1;
   top: 1;
-  margin-bottom: -250px;
+  margin-bottom: -25%;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 .productsrow {
   /* top: 10; */
-  margin-top: -100px;
+  margin-top: -50px;
 
   /* justify-content: center; */
 }
